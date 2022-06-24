@@ -37,8 +37,8 @@ Third Model (Hybrid Model):
 •	Dependent Variable :
  Stock Close Price 
 •	Independent Variables from the previous day :
- Predicated value from the first model
-Predicated value from the Second model
+ Predicated value from the first model,
+Predicated value from the Second model,and
  Actual value for stock close Price
 •	Statistical Model :
   Ridge Regression
