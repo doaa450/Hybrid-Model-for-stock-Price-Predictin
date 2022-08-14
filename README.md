@@ -1,22 +1,25 @@
 # Hybrid-Model
-
+------------------------------------------------------------------------------------------------------------------------------------------
+```
 The objective of this study is to reach an appropriate model to predict the stock close price of One-Step for Telecom Egypt (ETEL).
-First Model:
-•	Dependent Variable :
-  Stock Close Price 
-•	Independent Variables from the previous day :
+```
+## First Model:
+
+### Dependent Variable :
+   Stock Close Price 
+###	Independent Variables from the previous day :
  ( open , 
  Close  , 
  High ,
 Low Prices,
  Volume,and
 Change)
-•	Statistical Model :
+###	Statistical Model :
 Long Short Term Memory (LSTM) network.
-Second Model:
-•	Dependent Variable :
+## Second Model:
+###	Dependent Variable :
  Stock Close Price 
-•	Independent Variables ( Technical Indicators) from the previous day :
+### Independent Variables ( Technical Indicators) from the previous day :
 MACD Indicator
 Momentum
 Rate of change (ROC)
@@ -30,15 +33,15 @@ Exponential Moving Average for 10 days
 Average Price
 Median Price
 Typical Price
-•	Statistical Model :
+###	Statistical Model :
 Applying Lasso Regression to select the significant Indicators.
 Long Short Term Memory (LSTM) network for making prediction.
-Third Model (Hybrid Model):
-•	Dependent Variable :
+##Third Model (Hybrid Model):
+###	Dependent Variable :
  Stock Close Price 
-•	Independent Variables from the previous day :
+###	Independent Variables from the previous day :
  Predicated value from the first model,
 Predicated value from the Second model,and
  Actual value for stock close Price
-•	Statistical Model :
+###	Statistical Model :
   Ridge Regression
