@@ -36,7 +36,7 @@ Long Short Term Memory (LSTM) network.
 ###	Statistical Model :
 Applying Lasso Regression to select the significant Indicators.
 Long Short Term Memory (LSTM) network for making prediction.
-## Third Model (Hybrid Model):
+## Third Model (Hybrid Model using stacking ensemble):
 ###	Dependent Variable :
  Stock Close Price 
 ###	Independent Variables from the previous day :
