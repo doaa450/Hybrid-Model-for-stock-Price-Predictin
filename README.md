@@ -19,20 +19,20 @@ Long Short Term Memory (LSTM) network.
 ## Second Model:
 ###	Dependent Variable :
  Stock Close Price 
-### Independent Variables ( Technical Indicators) from the previous day :__
- MACD Indicator__
- Momentum__
- Rate of change (ROC)__
- Relative strength Indicator (RSI)__
- STOCHASTIC Indicator__
- Bollinger Bands Indicator__
- Simple Moving Average for 30 days__ 
- Simple Moving Average for 10 days__
- Exponential Moving Average for 30 days__
- Exponential Moving Average for 10 days__
- Average Price__
- Median Price__
- Typical Price__
+### Independent Variables ( Technical Indicators) from the previous day :
+ (MACD Indicator,
+ Momentum,
+ Rate of change (ROC),
+ Relative strength Indicator (RSI),
+ STOCHASTIC Indicator,
+ Bollinger Bands Indicator,
+ Simple Moving Average for 30 days,
+ Simple Moving Average for 10 days,
+ Exponential Moving Average for 30 days,
+ Exponential Moving Average for 10 days,
+ Average Price,
+ Median Price,
+ and Typical Price)
 ###	Statistical Model :
 Applying Lasso Regression to select the significant Indicators.
 Long Short Term Memory (LSTM) network for making prediction.
